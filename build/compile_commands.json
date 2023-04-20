@@ -1,0 +1,442 @@
+[
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build",
+  "command": "/usr/bin/clang  -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glad/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o CMakeFiles/glad.dir/include/glad/src/glad.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glad/src/glad.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glad/src/glad.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build",
+  "command": "/usr/bin/clang++  -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glad/include -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glm/glm/..  -std=c++20  -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o CMakeFiles/Nyx.dir/src/main.cpp.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/src/main.cpp",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/src/main.cpp"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/src -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/src -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/context.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/src/context.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/src/context.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/src -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/src -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/init.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/src/init.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/src/init.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/src -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/src -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/input.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/src/input.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/src/input.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/src -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/src -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/monitor.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/src/monitor.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/src/monitor.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/src -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/src -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/vulkan.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/src/vulkan.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/src/vulkan.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/src -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/src -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/window.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/src/window.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/src/window.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/src -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/src -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/cocoa_init.m.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/src/cocoa_init.m",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/src/cocoa_init.m"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/src -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/src -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/cocoa_joystick.m.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/src/cocoa_joystick.m",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/src/cocoa_joystick.m"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/src -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/src -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/cocoa_monitor.m.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/src/cocoa_monitor.m",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/src/cocoa_monitor.m"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/src -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/src -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/cocoa_window.m.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/src/cocoa_window.m",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/src/cocoa_window.m"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/src -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/src -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/cocoa_time.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/src/cocoa_time.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/src/cocoa_time.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/src -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/src -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/posix_thread.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/src/posix_thread.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/src/posix_thread.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/src -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/src -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/nsgl_context.m.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/src/nsgl_context.m",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/src/nsgl_context.m"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/src -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/src -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/egl_context.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/src/egl_context.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/src/egl_context.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/src -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/src -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/osmesa_context.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/src/osmesa_context.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/src/osmesa_context.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/examples",
+  "command": "/usr/bin/clang  -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99 -o CMakeFiles/boing.dir/boing.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/examples/boing.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/examples/boing.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/examples",
+  "command": "/usr/bin/clang  -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99 -o CMakeFiles/boing.dir/__/deps/glad_gl.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/glad_gl.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/glad_gl.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/examples",
+  "command": "/usr/bin/clang  -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99 -o CMakeFiles/gears.dir/gears.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/examples/gears.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/examples/gears.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/examples",
+  "command": "/usr/bin/clang  -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99 -o CMakeFiles/gears.dir/__/deps/glad_gl.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/glad_gl.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/glad_gl.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/examples",
+  "command": "/usr/bin/clang  -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99 -o CMakeFiles/heightmap.dir/heightmap.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/examples/heightmap.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/examples/heightmap.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/examples",
+  "command": "/usr/bin/clang  -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99 -o CMakeFiles/heightmap.dir/__/deps/glad_gl.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/glad_gl.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/glad_gl.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/examples",
+  "command": "/usr/bin/clang  -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99 -o CMakeFiles/offscreen.dir/offscreen.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/examples/offscreen.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/examples/offscreen.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/examples",
+  "command": "/usr/bin/clang  -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99 -o CMakeFiles/offscreen.dir/__/deps/glad_gl.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/glad_gl.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/glad_gl.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/examples",
+  "command": "/usr/bin/clang  -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99 -o CMakeFiles/particles.dir/particles.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/examples/particles.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/examples/particles.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/examples",
+  "command": "/usr/bin/clang  -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99 -o CMakeFiles/particles.dir/__/deps/tinycthread.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/tinycthread.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/tinycthread.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/examples",
+  "command": "/usr/bin/clang  -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99 -o CMakeFiles/particles.dir/__/deps/getopt.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/getopt.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/getopt.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/examples",
+  "command": "/usr/bin/clang  -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99 -o CMakeFiles/particles.dir/__/deps/glad_gl.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/glad_gl.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/glad_gl.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/examples",
+  "command": "/usr/bin/clang  -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99 -o CMakeFiles/sharing.dir/sharing.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/examples/sharing.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/examples/sharing.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/examples",
+  "command": "/usr/bin/clang  -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99 -o CMakeFiles/sharing.dir/__/deps/glad_gl.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/glad_gl.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/glad_gl.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/examples",
+  "command": "/usr/bin/clang  -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99 -o CMakeFiles/simple.dir/simple.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/examples/simple.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/examples/simple.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/examples",
+  "command": "/usr/bin/clang  -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99 -o CMakeFiles/simple.dir/__/deps/glad_gl.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/glad_gl.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/glad_gl.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/examples",
+  "command": "/usr/bin/clang  -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99 -o CMakeFiles/splitview.dir/splitview.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/examples/splitview.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/examples/splitview.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/examples",
+  "command": "/usr/bin/clang  -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99 -o CMakeFiles/splitview.dir/__/deps/glad_gl.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/glad_gl.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/glad_gl.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/examples",
+  "command": "/usr/bin/clang  -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99 -o CMakeFiles/wave.dir/wave.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/examples/wave.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/examples/wave.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/examples",
+  "command": "/usr/bin/clang  -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99 -o CMakeFiles/wave.dir/__/deps/glad_gl.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/glad_gl.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/glad_gl.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/tests",
+  "command": "/usr/bin/clang  -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99 -o CMakeFiles/clipboard.dir/clipboard.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/tests/clipboard.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/tests/clipboard.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/tests",
+  "command": "/usr/bin/clang  -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99 -o CMakeFiles/clipboard.dir/__/deps/getopt.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/getopt.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/getopt.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/tests",
+  "command": "/usr/bin/clang  -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99 -o CMakeFiles/clipboard.dir/__/deps/glad_gl.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/glad_gl.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/glad_gl.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/tests",
+  "command": "/usr/bin/clang  -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99 -o CMakeFiles/events.dir/events.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/tests/events.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/tests/events.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/tests",
+  "command": "/usr/bin/clang  -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99 -o CMakeFiles/events.dir/__/deps/getopt.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/getopt.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/getopt.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/tests",
+  "command": "/usr/bin/clang  -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99 -o CMakeFiles/events.dir/__/deps/glad_gl.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/glad_gl.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/glad_gl.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/tests",
+  "command": "/usr/bin/clang  -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99 -o CMakeFiles/msaa.dir/msaa.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/tests/msaa.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/tests/msaa.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/tests",
+  "command": "/usr/bin/clang  -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99 -o CMakeFiles/msaa.dir/__/deps/getopt.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/getopt.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/getopt.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/tests",
+  "command": "/usr/bin/clang  -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99 -o CMakeFiles/msaa.dir/__/deps/glad_gl.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/glad_gl.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/glad_gl.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/tests",
+  "command": "/usr/bin/clang  -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99 -o CMakeFiles/glfwinfo.dir/glfwinfo.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/tests/glfwinfo.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/tests/glfwinfo.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/tests",
+  "command": "/usr/bin/clang  -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99 -o CMakeFiles/glfwinfo.dir/__/deps/getopt.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/getopt.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/getopt.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/tests",
+  "command": "/usr/bin/clang  -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99 -o CMakeFiles/glfwinfo.dir/__/deps/glad_gl.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/glad_gl.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/glad_gl.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/tests",
+  "command": "/usr/bin/clang  -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99 -o CMakeFiles/glfwinfo.dir/__/deps/glad_vulkan.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/glad_vulkan.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/glad_vulkan.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/tests",
+  "command": "/usr/bin/clang  -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99 -o CMakeFiles/iconify.dir/iconify.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/tests/iconify.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/tests/iconify.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/tests",
+  "command": "/usr/bin/clang  -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99 -o CMakeFiles/iconify.dir/__/deps/getopt.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/getopt.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/getopt.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/tests",
+  "command": "/usr/bin/clang  -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99 -o CMakeFiles/iconify.dir/__/deps/glad_gl.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/glad_gl.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/glad_gl.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/tests",
+  "command": "/usr/bin/clang  -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99 -o CMakeFiles/monitors.dir/monitors.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/tests/monitors.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/tests/monitors.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/tests",
+  "command": "/usr/bin/clang  -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99 -o CMakeFiles/monitors.dir/__/deps/getopt.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/getopt.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/getopt.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/tests",
+  "command": "/usr/bin/clang  -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99 -o CMakeFiles/monitors.dir/__/deps/glad_gl.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/glad_gl.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/glad_gl.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/tests",
+  "command": "/usr/bin/clang  -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99 -o CMakeFiles/reopen.dir/reopen.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/tests/reopen.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/tests/reopen.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/tests",
+  "command": "/usr/bin/clang  -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99 -o CMakeFiles/reopen.dir/__/deps/glad_gl.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/glad_gl.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/glad_gl.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/tests",
+  "command": "/usr/bin/clang  -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99 -o CMakeFiles/cursor.dir/cursor.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/tests/cursor.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/tests/cursor.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/tests",
+  "command": "/usr/bin/clang  -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99 -o CMakeFiles/cursor.dir/__/deps/glad_gl.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/glad_gl.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/glad_gl.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/tests",
+  "command": "/usr/bin/clang  -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99 -o CMakeFiles/empty.dir/empty.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/tests/empty.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/tests/empty.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/tests",
+  "command": "/usr/bin/clang  -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99 -o CMakeFiles/empty.dir/__/deps/tinycthread.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/tinycthread.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/tinycthread.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/tests",
+  "command": "/usr/bin/clang  -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99 -o CMakeFiles/empty.dir/__/deps/glad_gl.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/glad_gl.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/glad_gl.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/tests",
+  "command": "/usr/bin/clang  -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99 -o CMakeFiles/gamma.dir/gamma.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/tests/gamma.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/tests/gamma.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/tests",
+  "command": "/usr/bin/clang  -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99 -o CMakeFiles/gamma.dir/__/deps/glad_gl.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/glad_gl.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/glad_gl.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/tests",
+  "command": "/usr/bin/clang  -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99 -o CMakeFiles/icon.dir/icon.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/tests/icon.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/tests/icon.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/tests",
+  "command": "/usr/bin/clang  -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99 -o CMakeFiles/icon.dir/__/deps/glad_gl.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/glad_gl.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/glad_gl.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/tests",
+  "command": "/usr/bin/clang  -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99 -o CMakeFiles/inputlag.dir/inputlag.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/tests/inputlag.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/tests/inputlag.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/tests",
+  "command": "/usr/bin/clang  -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99 -o CMakeFiles/inputlag.dir/__/deps/getopt.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/getopt.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/getopt.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/tests",
+  "command": "/usr/bin/clang  -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99 -o CMakeFiles/inputlag.dir/__/deps/glad_gl.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/glad_gl.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/glad_gl.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/tests",
+  "command": "/usr/bin/clang  -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99 -o CMakeFiles/joysticks.dir/joysticks.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/tests/joysticks.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/tests/joysticks.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/tests",
+  "command": "/usr/bin/clang  -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99 -o CMakeFiles/joysticks.dir/__/deps/glad_gl.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/glad_gl.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/glad_gl.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/tests",
+  "command": "/usr/bin/clang  -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99 -o CMakeFiles/opacity.dir/opacity.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/tests/opacity.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/tests/opacity.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/tests",
+  "command": "/usr/bin/clang  -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99 -o CMakeFiles/opacity.dir/__/deps/glad_gl.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/glad_gl.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/glad_gl.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/tests",
+  "command": "/usr/bin/clang  -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99 -o CMakeFiles/tearing.dir/tearing.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/tests/tearing.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/tests/tearing.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/tests",
+  "command": "/usr/bin/clang  -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99 -o CMakeFiles/tearing.dir/__/deps/glad_gl.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/glad_gl.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/glad_gl.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/tests",
+  "command": "/usr/bin/clang  -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99 -o CMakeFiles/threads.dir/threads.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/tests/threads.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/tests/threads.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/tests",
+  "command": "/usr/bin/clang  -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99 -o CMakeFiles/threads.dir/__/deps/tinycthread.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/tinycthread.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/tinycthread.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/tests",
+  "command": "/usr/bin/clang  -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99 -o CMakeFiles/threads.dir/__/deps/glad_gl.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/glad_gl.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/glad_gl.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/tests",
+  "command": "/usr/bin/clang  -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99 -o CMakeFiles/timeout.dir/timeout.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/tests/timeout.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/tests/timeout.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/tests",
+  "command": "/usr/bin/clang  -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99 -o CMakeFiles/timeout.dir/__/deps/glad_gl.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/glad_gl.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/glad_gl.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/tests",
+  "command": "/usr/bin/clang  -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99 -o CMakeFiles/title.dir/title.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/tests/title.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/tests/title.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/tests",
+  "command": "/usr/bin/clang  -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99 -o CMakeFiles/title.dir/__/deps/glad_gl.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/glad_gl.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/glad_gl.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/tests",
+  "command": "/usr/bin/clang  -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99 -o CMakeFiles/triangle-vulkan.dir/triangle-vulkan.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/tests/triangle-vulkan.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/tests/triangle-vulkan.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/tests",
+  "command": "/usr/bin/clang  -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99 -o CMakeFiles/triangle-vulkan.dir/__/deps/glad_vulkan.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/glad_vulkan.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/glad_vulkan.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/tests",
+  "command": "/usr/bin/clang  -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99 -o CMakeFiles/windows.dir/windows.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/tests/windows.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/tests/windows.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/tests",
+  "command": "/usr/bin/clang  -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99 -o CMakeFiles/windows.dir/__/deps/getopt.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/getopt.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/getopt.c"
+},
+{
+  "directory": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/build/include/glfw-3.3.8/tests",
+  "command": "/usr/bin/clang  -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps -I/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99 -o CMakeFiles/windows.dir/__/deps/glad_gl.c.o -c /Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/glad_gl.c",
+  "file": "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/include/glfw-3.3.8/deps/glad_gl.c"
+}
+]
