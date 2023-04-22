@@ -3,13 +3,12 @@
 
 #include <iostream>
 
-
 int main(int argc, const char** argv) {
 
     Nyx::InitGLFW();
 
     Nyx::Window window;
-    window.Init(1600, 900, "Nyx", true);
+    window.Init(1600, 900, "Nyx");
 
     while (!glfwWindowShouldClose(window.GetWindow())) {
 
@@ -18,10 +17,12 @@ int main(int argc, const char** argv) {
         glfwSwapBuffers(window.GetWindow());
 
         glfwPollEvents();
-
     }
 
+    std::cout << "\nCleaning Up...\n";
+
     window.Delete();
+    Nyx::TerminateGLFW();
 
     return 0;
 }

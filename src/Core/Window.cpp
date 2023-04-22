@@ -4,15 +4,16 @@ namespace Nyx {
 
     void Window::Init(int width, int height, std::string title, bool resisable, bool vsync) {
 
-        Window::m_width = width;
-        Window::m_height = height;
         Window::m_title = title;
 
         Window::m_resisable = resisable;
         Window::m_vsync = vsync;
 
+        // Log action
+        std::cout << "\nCreating GLFW window:\n" << "\tTitle  -> " << title << "\n\tWidth  -> " << width << "\n\tHeight -> " << height << "\n"; 
+
         // Create GLFW window
-        Window::m_window = glfwCreateWindow(m_width, m_height, m_title.c_str(), NULL, NULL);
+        Window::m_window = glfwCreateWindow(width, height, m_title.c_str(), NULL, NULL);
 
         if (!m_window) {
             glfwTerminate();
@@ -29,8 +30,11 @@ namespace Nyx {
         gladLoadGL();
 
         // Create viewport
-        glfwGetFramebufferSize(m_window, &m_framebuffer_width, &m_framebuffer_height);
-        glViewport(0, 0, m_framebuffer_width, m_framebuffer_height);
+        int framebuffer_width;
+        int framebuffer_height;
+
+        glfwGetFramebufferSize(m_window, &framebuffer_width, &framebuffer_height);
+        glViewport(0, 0, framebuffer_width, framebuffer_height);
 
         // Set callbacks
         glfwSetFramebufferSizeCallback(m_window, FramebufferSizeCallback);
@@ -41,10 +45,59 @@ namespace Nyx {
         glfwDestroyWindow(m_window);
     }
 
+    // Get Functions
+    int Window::GetWidth() {
+        int width;
+        glfwGetWindowSize(m_window, &width, nullptr);
+        return width;
+    }
+
+    int Window::GetHeight() {
+        int height;
+        glfwGetWindowSize(m_window, nullptr, &height);
+        return height;
+    }
+
+    glm::vec2 Window::GetSize() {
+        int width, height;
+        glfwGetWindowSize(m_window, &width, &height);
+        return { width, height };
+    }
+
+    std::string Window::GetTitle() {
+        return m_title;
+    }
+
     GLFWwindow* Window::GetWindow() {
         return m_window;
     }
 
+    // Set Functions
+    void Window::SetWidth(int width) {
+        glfwSetWindowSize(m_window, width, GetHeight());
+    }
+
+    void Window::SetHeight(int height) {
+        glfwSetWindowSize(m_window, GetWidth(), height);
+    }
+
+    void Window::SetSize(glm::vec2 size) {
+        glfwSetWindowSize(m_window, (int)size.x, (int)size.y);
+    }
+
+    void Window::SetTitle(std::string title) {
+        glfwSetWindowTitle(m_window, title.c_str());
+    }
+
+    void Window::SetResisable(bool resize) {
+        glfwSetWindowAttrib(m_window, GLFW_RESIZABLE, resize);
+    }
+
+    void Window::SetVsync(bool vsync) {
+        glfwSwapInterval(vsync);
+    }
+
+    // Callbacks
     void Window::FramebufferSizeCallback(GLFWwindow* window, int w, int h) {
         glViewport(0, 0, w, h);
     }

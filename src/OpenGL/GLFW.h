@@ -1,3 +1,5 @@
+#pragma once
+
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 
@@ -6,6 +8,9 @@
 namespace Nyx {
 
     static void InitGLFW() {
+
+        std::cout << "Initialising GLFW\n";
+
         if (!glfwInit()) {
             std::cout << "Could not init GLFW\n";
             return;
