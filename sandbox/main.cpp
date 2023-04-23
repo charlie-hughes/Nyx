@@ -9,7 +9,7 @@ int main(int argc, const char** argv) {
     Nyx::Window window;
     window.Init(1600, 900, "Nyx");
 
-    while (!glfwWindowShouldClose(window.GetWindow())) {
+    while (!window.GetWindowShouldClose()) {
 
         glClear(GL_COLOR_BUFFER_BIT);
 

@@ -23,6 +23,7 @@ namespace Nyx {
             glm::vec2 GetSize();
             std::string GetTitle();
             GLFWwindow* GetWindow();
+            bool GetWindowShouldClose();
 
             // Set
             void SetWidth(int width);
@@ -31,6 +32,7 @@ namespace Nyx {
             void SetTitle(std::string title);
             void SetResisable(bool resize);
             void SetVsync(bool vsync);
+            void Close();
 
         private:
 

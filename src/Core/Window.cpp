@@ -72,6 +72,10 @@ namespace Nyx {
         return m_window;
     }
 
+    bool Window::GetWindowShouldClose() {
+        return glfwWindowShouldClose(m_window);
+    }
+
     // Set Functions
     void Window::SetWidth(int width) {
         glfwSetWindowSize(m_window, width, GetHeight());
@@ -95,6 +99,10 @@ namespace Nyx {
 
     void Window::SetVsync(bool vsync) {
         glfwSwapInterval(vsync);
+    }
+
+    void Window::Close() {
+        glfwSetWindowShouldClose(m_window, 1);
     }
 
     // Callbacks
