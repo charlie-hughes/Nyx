@@ -15,7 +15,7 @@ namespace Nyx {
         vertex_buffer->Bind();
         glVertexAttribPointer(index, num_components, GL_FLOAT, GL_FALSE, stride, offset);
         glEnableVertexAttribArray(index);
-        vertex_buffer->UnBind();   
+        //vertex_buffer->UnBind();   
     }
 
     void VertexArray::Bind() {

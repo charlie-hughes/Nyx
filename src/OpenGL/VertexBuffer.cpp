@@ -20,14 +20,14 @@ namespace Nyx {
     void VertexBuffer::SetDynamicBuffer(GLsizeiptr size, const void* data) {
         Bind();
         glBufferData(GL_ARRAY_BUFFER, size, data, GL_DYNAMIC_DRAW);
-        UnBind();
+        //UnBind();
         m_size = size;
     }
 
     void VertexBuffer::SetDynamicBuffer(GLsizeiptr size) {
         Bind();
         glBufferData(GL_ARRAY_BUFFER, size, nullptr, GL_DYNAMIC_DRAW);
-        UnBind();
+        //UnBind();
         m_size = size;
     }
 
