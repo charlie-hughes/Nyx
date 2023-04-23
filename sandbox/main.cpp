@@ -1,5 +1,4 @@
-// Nyx header //
-#include "Nyx.h"
+#include "../src/Nyx.h"
 
 #include <iostream>
 
