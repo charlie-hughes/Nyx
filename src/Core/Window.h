@@ -14,7 +14,7 @@ namespace Nyx {
 
         public:
 
-            void Init(int width, int height, std::string title, bool resisable=true, bool vsync=true);
+            void Init(int width, int height, const std::string& title, bool resisable=true, bool vsync=true);
             void Delete();
 
             // Get info

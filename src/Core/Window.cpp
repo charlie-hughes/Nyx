@@ -2,7 +2,7 @@
 
 namespace Nyx {
 
-    void Window::Init(int width, int height, std::string title, bool resisable, bool vsync) {
+    void Window::Init(int width, int height, const std::string& title, bool resisable, bool vsync) {
 
         Window::m_title = title;
 
