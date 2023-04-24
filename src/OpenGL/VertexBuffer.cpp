@@ -39,7 +39,7 @@ namespace Nyx {
         
         Bind();
         glBufferSubData(GL_ARRAY_BUFFER, 0, m_size, data);
-        UnBind();
+        //UnBind();
     }
 
     void VertexBuffer::Bind() {

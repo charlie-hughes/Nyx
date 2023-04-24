@@ -77,7 +77,7 @@ namespace Nyx
         float height = (float)m_render_target->GetHeight();
         
         glm::mat4 projection = glm::ortho(0.0f, width / m_scale, 0.0f, height / m_scale, m_near, m_far);
-        glm::vec3 translation = { m_position.x + ( width / 2 ) / m_scale, m_position.y + ( height / 2 ) / m_scale, -1.0f };
+        glm::vec3 translation = { -m_position.x + ( width / 2 ) / m_scale, -m_position.y + ( height / 2 ) / m_scale, -1.0f };
 
         return glm::translate(projection, translation);
     }

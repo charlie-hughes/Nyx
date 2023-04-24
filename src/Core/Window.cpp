@@ -10,7 +10,7 @@ namespace Nyx {
         m_vsync     = vsync;
 
         // Log action
-        std::cout << "\nCreating GLFW window:\n" << "\tTitle  -> " << title << "\n\tWidth  -> " << width << "\n\tHeight -> " << height << "\n"; 
+        std::cout << "\nCreating GLFW window:\n" << "\tTitle  -> " << title << "\n\tWidth  -> " << width << "\n\tHeight -> " << height << "\n\n"; 
 
         // Create GLFW window
         Window::m_window = glfwCreateWindow(width, height, m_title.c_str(), NULL, NULL);

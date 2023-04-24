@@ -26,15 +26,15 @@ namespace Nyx {
 
     void IndexBuffer::SetDynamicBuffer(GLsizeiptr size) {
         Bind();
-        glBufferData(GL_ELEMENT_ARRAY_BUFFER, size, nullptr, GL_STATIC_DRAW);
+        glBufferData(GL_ELEMENT_ARRAY_BUFFER, size, nullptr, GL_DYNAMIC_DRAW);
         //UnBind();
         m_size = size;
     }
 
     void IndexBuffer::FillBuffer(const void* indices) {
         Bind();
-        glBufferData(GL_ELEMENT_ARRAY_BUFFER, m_size, indices, GL_STATIC_DRAW);
-        UnBind();
+        glBufferSubData(GL_ELEMENT_ARRAY_BUFFER, 0, m_size, indices);
+        //UnBind();
     }
 
     void IndexBuffer::Bind() {

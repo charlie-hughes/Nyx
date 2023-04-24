@@ -15,32 +15,8 @@ int main(int argc, const char** argv) {
 
     Nyx::OrthographicCamera camera(&window);
 
-    GLfloat verts[12] = {
-        -0.5f, -0.5f, 0.0f, 
-         0.5f, -0.5f, 0.0f,
-        -0.5f,  0.5f, 0.0f,
-         0.5f,  0.5f, 0.0f
-    };
-
-    uint32_t indices[6] = {0, 1, 2, 1, 3, 2};
-
-    Nyx::VertexArray  va;
-    Nyx::VertexBuffer vb;
-    Nyx::IndexBuffer  eb;
-
-    va.Bind();
-    vb.Bind();
-    vb.SetDynamicBuffer(sizeof(verts), verts);
-
-    va.SetAttribute(&vb, 0, 3, sizeof(GLfloat)*3, (void*)0);
-
-    eb.Bind();
-    eb.SetStaticBuffer(sizeof(indices), indices);
-
-    vb.UnBind();
-    va.UnBind();
-    eb.UnBind();
-
+    Nyx::Renderer2D renderer(16);
+    
     while (!window.GetWindowShouldClose()) {
 
         glClear(GL_COLOR_BUFFER_BIT);
@@ -49,20 +25,26 @@ int main(int argc, const char** argv) {
 
         glUniformMatrix4fv(default_shader.GetUniformLocation("u_MVP"), 1, GL_FALSE, glm::value_ptr(camera.GetProjectionMatrix()));
 
-        va.Bind();
-        glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
+        renderer.Begin();
+
+        for (int i = 0; i < 16; i++) {
+           renderer.DrawQuad({-7.5f+i,  1.0f}, {1.0f, 1.0f}, {i/8.0, i/16.0, i/16.0, 1.0f}); 
+           renderer.DrawQuad({-7.5f+i,  0.0f}, {1.0f, 1.0f}, {i/16.0, i/8.0, i/16.0, 1.0f}); 
+           renderer.DrawQuad({-7.5f+i, -1.0f}, {1.0f, 1.0f}, {i/16.0, i/16.0, i/8.0, 1.0f}); 
+        }
+        
+        renderer.Render();
+
+        std::cout << "Rendered " << renderer.GetQuadCount() << " quads in " << renderer.GetDrawCalls() << " draw calls" << std::setw(20) << "\r" << std::flush;
 
         glfwSwapBuffers(window.GetWindow());
 
         glfwPollEvents();
     }
 
-    std::cout << "\nCleaning Up...\n";
+    std::cout << "\n\nCleaning Up...\n";
 
-    va.Delete();
-    vb.Delete();
-    eb.Delete();
-
+    renderer.Delete();
     default_shader.Delete();
     window.Delete();
 

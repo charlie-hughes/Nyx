@@ -14,6 +14,7 @@
 // --- Rendering --- //
 
 #include "Rendering/Renderer2D.h"
+#include "Rendering/Vertex.h"
 
 // --- OpenGL --- //
 
