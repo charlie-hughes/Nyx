@@ -2,12 +2,7 @@
 
 namespace Nyx {
 
-    void Window::Init(int width, int height, const std::string& title, bool resisable, bool vsync) {
-
-        Window::m_title = title;
-
-        Window::m_resisable = resisable;
-        Window::m_vsync = vsync;
+    Window::Window(int width, int height, const std::string& title, bool resisable, bool vsync) {
 
         // Log action
         std::cout << "\nCreating GLFW window:\n" << "\tTitle  -> " << title << "\n\tWidth  -> " << width << "\n\tHeight -> " << height << "\n"; 

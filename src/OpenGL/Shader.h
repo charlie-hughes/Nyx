@@ -17,6 +17,8 @@ namespace Nyx {
 
             void Activate();
 
+            GLint GetUniformLocation(std::string uniform_name);
+
         private:
 
             GLuint m_ID;

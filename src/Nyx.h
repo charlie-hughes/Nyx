@@ -1,10 +1,19 @@
 #pragma once
 
+// --- Vendored --- //
+
+#include <glad/glad.h>
+#include <GLFW/glfw3.h>
+#include <glm/glm.hpp>
+
 // --- Core --- //
 
 #include "Core/Window.h"
 #include "Core/OrthographicCamera.h"
-#include "Core/Renderer2D.h"
+
+// --- Rendering --- //
+
+#include "Rendering/Renderer2D.h"
 
 // --- OpenGL --- //
 
@@ -17,5 +26,3 @@
 
 // --- Utils --- //
 
-// #include "Utils/stb_image.h"
-// #include "Utils/FileToString.h"

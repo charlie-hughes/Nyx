@@ -37,12 +37,16 @@ namespace Nyx {
 
     }
 
+    void Shader::Delete() {
+        glDeleteProgram(m_ID);
+    }
+
     void Shader::Activate() {
         glUseProgram(m_ID);
     }
 
-    void Shader::Delete() {
-        glDeleteProgram(m_ID);
+    GLint Shader::GetUniformLocation(std::string uniform_name) {
+        return glGetUniformLocation(m_ID, uniform_name.c_str());
     }
 
 }

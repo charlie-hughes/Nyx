@@ -1,15 +1,20 @@
 #include "../src/Nyx.h"
 
+#include <glm/gtc/type_ptr.hpp>
 #include <iostream>
+#include <string>
 
 int main(int argc, const char** argv) {
 
     Nyx::InitGLFW();
 
-    Nyx::Window window;
-    window.Init(1600, 900, "Nyx");
+    Nyx::Window window(1600, 900, "Nyx");
+    window.SetVsync(true);
+    
+    std::string shader_loc = "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/sandbox/shaders/";
+    Nyx::Shader default_shader(shader_loc + "vertex.vert", shader_loc + "fragment.frag");
 
-    Nyx::Shader defualt_shader("/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/sandbox/shaders/vertex.vert", "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/sandbox/shaders/fragment.frag");
+    Nyx::OrthographicCamera camera(&window);
 
     GLfloat verts[12] = {
         -0.5f, -0.5f, 0.0f, 
@@ -20,13 +25,13 @@ int main(int argc, const char** argv) {
 
     uint32_t indices[6] = {0, 1, 2, 1, 3, 2};
 
-    Nyx::VertexArray va;
+    Nyx::VertexArray  va;
     Nyx::VertexBuffer vb;
-    Nyx::IndexBuffer eb;
+    Nyx::IndexBuffer  eb;
 
     va.Bind();
     vb.Bind();
-    vb.SetStaticBuffer(sizeof(verts), verts);
+    vb.SetDynamicBuffer(sizeof(verts), verts);
 
     va.SetAttribute(&vb, 0, 3, sizeof(GLfloat)*3, (void*)0);
 
@@ -41,7 +46,9 @@ int main(int argc, const char** argv) {
 
         glClear(GL_COLOR_BUFFER_BIT);
 
-        defualt_shader.Activate();
+        default_shader.Activate();
+
+        glUniformMatrix4fv(default_shader.GetUniformLocation("u_MVP"), 1, GL_FALSE, glm::value_ptr(camera.GetProjectionMatrix()));
 
         va.Bind();
         glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
@@ -53,8 +60,13 @@ int main(int argc, const char** argv) {
 
     std::cout << "\nCleaning Up...\n";
 
-    defualt_shader.Delete();
+    va.Delete();
+    vb.Delete();
+    eb.Delete();
+
+    default_shader.Delete();
     window.Delete();
+
     Nyx::TerminateGLFW();
 
     return 0;
