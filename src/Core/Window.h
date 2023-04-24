@@ -15,24 +15,25 @@ namespace Nyx {
         public:
 
             Window(int width, int height, const std::string& title, bool resisable=true, bool vsync=true);
-            void Delete();
+            void        Delete();
 
-            // Get info
-            int GetWidth();
-            int GetHeight();
-            glm::vec2 GetSize();
+            // Get
+            int         GetWidth();
+            int         GetHeight();
+            float       GetAspect();
+            glm::vec2   GetSize();
             std::string GetTitle();
             GLFWwindow* GetWindow();
-            bool GetWindowShouldClose();
+            bool        GetWindowShouldClose();
 
             // Set
-            void SetWidth(int width);
-            void SetHeight(int height);
-            void SetSize(glm::vec2 size);
-            void SetTitle(std::string title);
-            void SetResisable(bool resize);
-            void SetVsync(bool vsync);
-            void Close();
+            void        SetWidth(int width);
+            void        SetHeight(int height);
+            void        SetSize(glm::vec2 size);
+            void        SetTitle(std::string title);
+            void        SetResisable(bool resize);
+            void        SetVsync(bool vsync);
+            void        Close();
 
         private:
 

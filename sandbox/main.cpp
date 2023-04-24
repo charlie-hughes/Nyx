@@ -9,7 +9,6 @@ int main(int argc, const char** argv) {
     Nyx::InitGLFW();
 
     Nyx::Window window(1600, 900, "Nyx");
-    window.SetVsync(true);
     
     std::string shader_loc = "/Users/charliehughes/Desktop/GameDev/Nyx/Nyx/sandbox/shaders/";
     Nyx::Shader default_shader(shader_loc + "vertex.vert", shader_loc + "fragment.frag");
