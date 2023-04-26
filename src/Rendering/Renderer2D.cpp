@@ -49,7 +49,6 @@ namespace Nyx {
 
         // Enable depth sorting
         glEnable(GL_DEPTH_TEST);
-
     }
 
     void Renderer2D::Delete() {
@@ -73,6 +72,52 @@ namespace Nyx {
     void Renderer2D::Clear(glm::vec4 colour) {
         glClearColor(colour.x, colour.y, colour.z, colour.w);
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+    }
+
+    void Renderer2D::Resize(uint32_t max_quads) {
+        m_max_vertices = max_quads * 4;
+        m_max_quads    = max_quads;
+        m_max_indices  = max_quads * 6;
+
+        // Clear vertex and index vectors
+        m_vertices.clear();
+        m_indices.clear();
+
+        // Resize Vertex and Index vectors
+        m_vertices.reserve(m_max_vertices);
+        m_indices.reserve(m_max_indices);
+
+        m_vertex_ptr = m_vertices.data();
+        m_index_ptr = m_indices.data();
+
+        m_index_offset = 0;
+        m_num_quads = 0;
+
+        // Render stats
+        m_num_draw_calls = 0;
+        m_total_quads = 0;
+
+        // Bind buffers
+        m_VA.Bind();
+        m_VB.Bind();
+        m_EB.Bind();
+
+        // Create vertex buffer
+        m_VB.SetDynamicBuffer(sizeof(Vertex) * m_max_vertices);
+
+        // Create index buffer
+        m_EB.SetDynamicBuffer(sizeof(uint32_t) * m_max_indices);
+
+        // Set vertex attributes
+        m_VA.SetAttribute(&m_VB, 0, 3, sizeof(Vertex), (void*)offsetof(Vertex, position)); // Position
+        m_VA.SetAttribute(&m_VB, 1, 4, sizeof(Vertex), (void*)offsetof(Vertex, colour)); // Colour
+        m_VA.SetAttribute(&m_VB, 2, 2, sizeof(Vertex), (void*)offsetof(Vertex, tex_coord)); // Uv
+        m_VA.SetAttribute(&m_VB, 3, 1, sizeof(Vertex), (void*)offsetof(Vertex, tex_index)); // Texture index
+
+        // Unbind buffers
+        m_VB.UnBind();
+        m_VA.UnBind();
+        m_EB.UnBind();
     }
 
     void Renderer2D::Render() {

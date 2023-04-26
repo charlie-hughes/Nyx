@@ -14,7 +14,7 @@ int main(int argc, const char** argv) {
 
     Nyx::OrthographicCamera camera(&window);
 
-    Nyx::Renderer2D renderer(1'000);
+    Nyx::Renderer2D renderer;
 
     while (!window.GetWindowShouldClose()) {
 

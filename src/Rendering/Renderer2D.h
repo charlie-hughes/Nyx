@@ -17,12 +17,14 @@ namespace Nyx {
 
         public:
 
-            Renderer2D(uint32_t max_quads);
+            Renderer2D(uint32_t max_quads=10'000);
             void Delete();
 
             void Begin();
 
             void Clear(glm::vec4 colour={0.0f, 0.0f, 0.0f, 0.0f});
+
+            void Resize(uint32_t max_quads);
 
             // Renders the data currently in the buffers
             void Render();
