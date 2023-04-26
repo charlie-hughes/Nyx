@@ -45,8 +45,12 @@ namespace Nyx {
         glUseProgram(m_ID);
     }
 
-    GLint Shader::GetUniformLocation(std::string uniform_name) {
-        return glGetUniformLocation(m_ID, uniform_name.c_str());
+    GLint Shader::GetUniformLocation(const char* uniform_name) {
+        return glGetUniformLocation(m_ID, uniform_name);
+    }
+
+    void Shader::SendMVP(const char* name, glm::mat4 matrix) {
+        glUniformMatrix4fv(GetUniformLocation(name), 1, GL_FALSE, glm::value_ptr(matrix));
     }
 
 }

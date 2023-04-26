@@ -1,6 +1,6 @@
 #pragma once
 
-// --- Vendored --- //
+// --- Vendor --- //
 
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>

@@ -17,6 +17,10 @@ namespace Nyx {
         m_index_offset = 0;
         m_num_quads = 0;
 
+        // Render stats
+        m_num_draw_calls = 0;
+        m_total_quads = 0;
+
         m_VA = VertexArray();
         m_VB = VertexBuffer();
         m_EB = IndexBuffer();
@@ -43,6 +47,9 @@ namespace Nyx {
         m_VA.UnBind();
         m_EB.UnBind();
 
+        // Enable depth sorting
+        glEnable(GL_DEPTH_TEST);
+
     }
 
     void Renderer2D::Delete() {
@@ -61,6 +68,11 @@ namespace Nyx {
         // Render stats
         m_num_draw_calls = 0;
         m_total_quads = 0;
+    }
+
+    void Renderer2D::Clear(glm::vec4 colour) {
+        glClearColor(colour.x, colour.y, colour.z, colour.w);
+        glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
     }
 
     void Renderer2D::Render() {
@@ -82,6 +94,12 @@ namespace Nyx {
         m_VA.Bind();
 
         glDrawElements(GL_TRIANGLES, m_index_ptr - m_indices.data(), GL_UNSIGNED_INT, 0);
+        
+        m_VA.UnBind();
+
+        // Render stats
+        m_num_draw_calls = 1;
+        m_total_quads = m_num_quads;
     }
 
     void Renderer2D::PushData() {
@@ -161,6 +179,10 @@ namespace Nyx {
 
     uint32_t Renderer2D::GetDrawCalls() {
         return m_num_draw_calls;
+    }
+
+    void Renderer2D::PrintRenderStats() {
+        std::cout << "Rendered " << GetQuadCount() << " quads in " << GetDrawCalls() << " draw calls" << std::setw(20) << "\r" << std::flush;
     }
 
 }

@@ -1,6 +1,5 @@
 #include "../src/Nyx.h"
 
-#include <glm/gtc/type_ptr.hpp>
 #include <iostream>
 #include <string>
 
@@ -15,30 +14,32 @@ int main(int argc, const char** argv) {
 
     Nyx::OrthographicCamera camera(&window);
 
-    Nyx::Renderer2D renderer(16);
-    
+    Nyx::Renderer2D renderer(1'000);
+
     while (!window.GetWindowShouldClose()) {
 
-        glClear(GL_COLOR_BUFFER_BIT);
-
-        default_shader.Activate();
-
-        glUniformMatrix4fv(default_shader.GetUniformLocation("u_MVP"), 1, GL_FALSE, glm::value_ptr(camera.GetProjectionMatrix()));
-
+        // Setup renderer
+        renderer.Clear({0.0f, 0.0f, 0.0f, 1.0f});
         renderer.Begin();
 
-        for (int i = 0; i < 16; i++) {
-           renderer.DrawQuad({-7.5f+i,  1.0f}, {1.0f, 1.0f}, {i/8.0, i/16.0, i/16.0, 1.0f}); 
-           renderer.DrawQuad({-7.5f+i,  0.0f}, {1.0f, 1.0f}, {i/16.0, i/8.0, i/16.0, 1.0f}); 
-           renderer.DrawQuad({-7.5f+i, -1.0f}, {1.0f, 1.0f}, {i/16.0, i/16.0, i/8.0, 1.0f}); 
-        }
-        
-        renderer.Render();
+        default_shader.Activate();
+        default_shader.SendMVP("u_MVP", camera.GetProjectionMatrix());
 
-        std::cout << "Rendered " << renderer.GetQuadCount() << " quads in " << renderer.GetDrawCalls() << " draw calls" << std::setw(20) << "\r" << std::flush;
+        // Draw
+        renderer.DrawQuad({-3.75f, 1.0f}, {3.0f, 4.0f}, {0.7f, 0.2f, 0.25f, 1.0f}); // Red quad
+        renderer.DrawQuad({3.0f, -1.5f}, {2.5f, 2.5f}, {0.2f, 0.2f, 0.6f, 1.0f}); // Blue quad
+
+        for (int y = 0; y < 27; y++) {
+            for (int x = 0; x < 48; x++) {
+                float colour_multiple = (x + y) % 2 + 2;
+                renderer.DrawQuad({-24.5+x, -13+y}, {1.0f, 1.0f}, {0.2f*colour_multiple, 0.2f*colour_multiple, 0.2f*colour_multiple, 1.0f}, -0.1f);
+            }
+        }
+
+        renderer.Flush();
+        renderer.PrintRenderStats();
 
         glfwSwapBuffers(window.GetWindow());
-
         glfwPollEvents();
     }
 

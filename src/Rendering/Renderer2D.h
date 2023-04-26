@@ -4,6 +4,7 @@
 #include <GLFW/glfw3.h>
 #include <vector>
 #include <iostream>
+#include <iomanip>
 
 #include "Vertex.h"
 #include "../OpenGL/IndexBuffer.h"
@@ -20,6 +21,8 @@ namespace Nyx {
             void Delete();
 
             void Begin();
+
+            void Clear(glm::vec4 colour={0.0f, 0.0f, 0.0f, 0.0f});
 
             // Renders the data currently in the buffers
             void Render();
@@ -47,6 +50,9 @@ namespace Nyx {
 
             // Get number of draw calls
             uint32_t GetDrawCalls();
+
+            // Print render stats
+            void PrintRenderStats();
 
         private:
 

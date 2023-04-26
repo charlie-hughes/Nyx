@@ -2,6 +2,8 @@
 
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
+#include <glm/glm.hpp>
+#include <glm/gtc/type_ptr.hpp>
 #include <string>
 
 #include "../Utils/FileToString.h"
@@ -17,7 +19,9 @@ namespace Nyx {
 
             void Activate();
 
-            GLint GetUniformLocation(std::string uniform_name);
+            GLint GetUniformLocation(const char* uniform_name);
+
+            void SendMVP(const char* name, glm::mat4 matrix);
 
         private:
 

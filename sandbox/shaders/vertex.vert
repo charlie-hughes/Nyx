@@ -11,11 +11,15 @@ uniform mat4 u_MVP;
 
 // Outputs
 out vec4 Colour;
+out vec2 UV;
+out float TexIndex;
 
 void main() {
 
     gl_Position = u_MVP * vec4(a_Pos, 1.0f);
 
     Colour = a_Colour;
+    UV = a_TexCoord;
+    TexIndex = a_TexIndex;
 
 }

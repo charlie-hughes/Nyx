@@ -20,11 +20,12 @@ namespace Nyx
     }
 
     void OrthographicCamera::SetScale(float scale) {
-        m_scale = scale;
+        m_scale = std::clamp(scale, 0.1f, 1000.0f);
     }
 
     void OrthographicCamera::ChangeScale(float change) {
         m_scale += change;
+        m_scale = std::clamp(m_scale, 0.1f, 1000.0f);
     }
 
     void OrthographicCamera::SetPosition(glm::vec2 position) {
