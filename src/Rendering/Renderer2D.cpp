@@ -169,35 +169,36 @@ namespace Nyx {
         
     }
 
-    void Renderer2D::DrawQuad(glm::vec2 position, glm::vec2 size, glm::vec4 colour, float layer) {
-
+    void Renderer2D::DrawQuad(glm::vec2 position, glm::vec2 size, glm::vec4 colour, float rotation, float layer) {
         if (m_num_quads == m_max_quads) {
             Flush();
         }
 
+        rotation *= (M_PI / 180);
+
         // Top left
-        m_vertex_ptr->position = { position.x - size.x / 2, position.y + size.y / 2, layer};
+        m_vertex_ptr->position = glm::rotateZ(glm::vec3({ -size.x / 2, size.y / 2, layer}), rotation) + glm::vec3({position.x, position.y, 0.0f});;
         m_vertex_ptr->colour = colour;
         m_vertex_ptr->tex_coord = { 0.0f, 1.0f };
         m_vertex_ptr->tex_index = 0.0f;
         m_vertex_ptr++;
 
         // Top right
-        m_vertex_ptr->position = { position.x + size.x / 2, position.y + size.y / 2, layer};
+        m_vertex_ptr->position = glm::rotateZ(glm::vec3({ size.x / 2, size.y / 2, layer}), rotation) + glm::vec3({position.x, position.y, 0.0f});;
         m_vertex_ptr->colour = colour;
         m_vertex_ptr->tex_coord = { 1.0f, 1.0f };
         m_vertex_ptr->tex_index = 0.0f;
         m_vertex_ptr++;
 
         // Bottom right
-        m_vertex_ptr->position = { position.x + size.x / 2, position.y - size.y / 2, layer};
+        m_vertex_ptr->position = glm::rotateZ(glm::vec3({ size.x / 2, -size.y / 2, layer}), rotation) + glm::vec3({position.x, position.y, 0.0f});;
         m_vertex_ptr->colour = colour;
         m_vertex_ptr->tex_coord = { 1.0f, 0.0f };
         m_vertex_ptr->tex_index = 0.0f;
         m_vertex_ptr++;
 
         // Bottom left
-        m_vertex_ptr->position = { position.x - size.x / 2, position.y - size.y / 2, layer};
+        m_vertex_ptr->position = glm::rotateZ(glm::vec3({ -size.x / 2, -size.y / 2, layer}), rotation) + glm::vec3({position.x, position.y, 0.0f});;
         m_vertex_ptr->colour = colour;
         m_vertex_ptr->tex_coord = { 0.0f, 0.0f };
         m_vertex_ptr->tex_index = 0.0f;

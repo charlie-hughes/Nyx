@@ -5,6 +5,7 @@
 #include <vector>
 #include <iostream>
 #include <iomanip>
+#include <glm/gtx/rotate_vector.hpp>
 
 #include "Vertex.h"
 #include "../OpenGL/IndexBuffer.h"
@@ -42,10 +43,10 @@ namespace Nyx {
             void End();
 
             // Draw coloured quad
-            void DrawQuad(glm::vec2 position, glm::vec2 size, glm::vec4 colour, float layer=0.0f);
+            void DrawQuad(glm::vec2 position, glm::vec2 size, glm::vec4 colour, float rotation=0.0f, float layer=0.0f);
 
             // Draw textured quad
-            void DrawQuad(glm::vec2 position, glm::vec2 size, float texture_index, float layer=0.0f);
+            void DrawQuad(glm::vec2 position, glm::vec2 size, float texture_index, float rotation=0.0f, float layer=0.0f);
 
             // Get number of quads drawn
             uint32_t GetQuadCount();
