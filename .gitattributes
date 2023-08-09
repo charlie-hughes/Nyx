@@ -1,1 +1,2 @@
 include/** linguist-vendored
+src/Utils/stb_image.h linguist-vendored
